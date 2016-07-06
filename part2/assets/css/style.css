@@ -64,6 +64,12 @@ section {
 
 @media only screen and (max-width: 768px) {
 	
+	.content-wrapper{
+
+		background-color: #020c85;
+		max-width: 640px;
+	}
+
 	aside{
 		display: block;
 		width: 100%;
@@ -78,10 +84,12 @@ section {
 
 	.content-wrapper{
 		background-color: #007f25;
+		max-width: 480px;
 	}
 
 	.about-me img{
 		float: none;
+		width: initial;
 	}
 	/* Add your code here */
 }
