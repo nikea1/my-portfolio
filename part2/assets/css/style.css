@@ -63,9 +63,25 @@ section {
 
 
 @media only screen and (max-width: 768px) {
+	
+	aside{
+		display: block;
+		width: 100%;
+	}
+	section{
+		width: 100%;
+	}
 	/* Add your code here */
 }
 
 @media only screen and (max-width: 640px) {
+
+	.content-wrapper{
+		background-color: #007f25;
+	}
+
+	.about-me img{
+		float: none;
+	}
 	/* Add your code here */
 }
